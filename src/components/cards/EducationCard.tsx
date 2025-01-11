@@ -16,8 +16,8 @@ function EducationCard() {
 
         <div className='flex flex-col gap-3 flex-1 overflow-y-scroll [&::-webkit-scrollbar]:hidden'>
           {
-            EDUCATION.slice(0, 1).map((exp) => (
-              <div>
+            EDUCATION.slice(0, 1).map((exp, idx) => (
+              <div key={`${idx}`}>
                 <p className="font-mono font-semibold text-base text-[#4285F4]">{exp.position}</p>
                 <p className="font-mono font-medium text-sm text-white">{exp.name}</p>
                 <p className="font-mono font-medium text-sm text-white">{exp.start} - {exp.end}</p>
