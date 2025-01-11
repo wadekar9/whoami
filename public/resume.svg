@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 250 250" width="250" height="250">
+  <path d="M179.688 203.057V35.156a11.753 11.753 0 0 0-11.719-11.719H35.156a11.753 11.753 0 0 0-11.719 11.719v171.875a19.59 19.59 0 0 0 19.531 19.531h160.156" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="15.625"/>
+  <path d="M203.125 226.563a23.44 23.44 0 0 1-23.438-23.438V62.5h35.156a11.72 11.72 0 0 1 11.719 11.719v128.906a23.44 23.44 0 0 1-23.438 23.438z" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="15.625"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="15.625" d="M117.188 62.5h31.25m-31.25 31.25h31.25M54.688 125h93.75m-93.75 31.25h93.75m-93.75 31.25h93.75"/>
+  <path fill="#fff" d="M85.938 101.563h-31.25a7.813 7.813 0 0 1-7.813-7.813V62.5a7.813 7.813 0 0 1 7.813-7.813h31.25a7.813 7.813 0 0 1 7.813 7.813v31.25a7.813 7.813 0 0 1-7.813 7.813"/>
+</svg>
