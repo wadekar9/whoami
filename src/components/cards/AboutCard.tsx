@@ -14,7 +14,7 @@ function AboutCard() {
               Hi👋🏻, I'm <b className="font-bold">Nayan Wadekar</b>, an enthusiastic React Native app developer with over 3 years of hands-on experience in crafting mobile applications that seamlessly bridge the gap between iOS and Android platforms.
             </p>
           </div>
-          <div className="flex gap-4 h-[100px] items-end">
+          {/* <div className="flex gap-4 h-[100px] items-end">
             <a href={LINKS.github} aria-label="resume pdf file" target="_blank">
               <RainbowButton className='py-0 px-0 bg-white flex items-center justify-center h-[50px] w-[50px]'>
                 <Image src={'./github-icon.svg'} width={28} height={28} alt="github" />
@@ -35,7 +35,7 @@ function AboutCard() {
                 <Image src={'./twitter-icon.svg'} width={25} height={25} alt="twitter" />
               </RainbowButton>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className='w-[300px] h-[100%] flex-col flex items-center justify-center p-4 gap-6'>
           <div className='w-[85%] h-full overflow-hidden rounded-md'>
