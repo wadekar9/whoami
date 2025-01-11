@@ -39,11 +39,11 @@ function AboutCard() {
         </div>
         <div className='w-[300px] h-[100%] flex-col flex items-center justify-center p-4 gap-6'>
           <div className='w-[85%] h-full overflow-hidden rounded-md'>
-            <Image src={'/assets/profile-pic.png'} width={255} height={255} alt="profile pic" className='w-full h-full object-cover' />
+            <Image src={'./assets/profile-pic.png'} width={255} height={255} alt="profile pic" className='w-full h-full object-cover' />
           </div>
 
           <a href={LINKS.resume} aria-label="resume pdf file" target="_blank" className='w-[80%] h-[65px]'>
-            <button className='w-full h-full bg-red-400 rounded-md border border-s-slate-300 flex items-center justify-center gap-2'>
+            <button className='w-full h-full bg-[#4285F4] rounded-md border border-s-slate-300 flex items-center justify-center gap-2'>
               <Image src={'./resume.svg'} width={25} height={25} alt="document" />
               <span className='font-mono font-semibold text-white'>Download Resume</span>
             </button>

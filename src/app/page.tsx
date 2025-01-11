@@ -22,7 +22,7 @@ export default function Home() {
       />
 
       <div className="w-full h-full flex items-center justify-center relative">
-        <div className="w-[60%] h-[80%] grid grid-cols-4 grid-rows-8 gap-1.5">
+        <div className="w-[60%] h-[80%] grid grid-cols-4 grid-rows-8 gap-4">
 
           <AboutCard />
           <TechStackCard />
