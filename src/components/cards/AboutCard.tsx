@@ -39,7 +39,7 @@ function AboutCard() {
         </div>
         <div className='w-[300px] h-[100%] flex-col flex items-center justify-center p-4 gap-6'>
           <div className='w-[85%] h-full overflow-hidden rounded-md'>
-            <img src='./assets/profile-pic.png' className='w-full h-full object-cover' />
+            <Image src={'/assets/profile-pic.png'} width={255} height={255} alt="profile pic" className='w-full h-full object-cover' />
           </div>
 
           <a href={LINKS.resume} aria-label="resume pdf file" target="_blank" className='w-[80%] h-[65px]'>
