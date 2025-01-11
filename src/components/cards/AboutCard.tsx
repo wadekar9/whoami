@@ -1,6 +1,7 @@
 import { LINKS } from '@/constants/links'
 import React from 'react'
 import { RainbowButton, Title } from '../ui'
+import Image from 'next/image'
 
 function AboutCard() {
   return (
@@ -16,22 +17,22 @@ function AboutCard() {
           <div className="flex gap-4 h-[100px] items-end">
             <a href={LINKS.github} aria-label="resume pdf file" target="_blank">
               <RainbowButton className='py-0 px-0 bg-white flex items-center justify-center h-[50px] w-[50px]'>
-                <img src='./github-icon.svg' className='w-[28px] h-[28px]' />
+                <Image src={'./github-icon.svg'} width={28} height={28} alt="github" />
               </RainbowButton>
             </a>
             <a href={LINKS.linkedin} aria-label="resume pdf file" target="_blank">
               <RainbowButton className='py-0 px-0 bg-white flex items-center justify-center h-[50px] w-[50px]'>
-                <img src='./linkedin-icon.svg' className='w-[28px] h-[28px]' />
+                <Image src={'./linkedin-icon.svg'} width={28} height={28} alt="linkedin" />
               </RainbowButton>
             </a>
             <a href={LINKS.email} aria-label="resume pdf file" target="_blank">
               <RainbowButton className='py-0 px-0 bg-white flex items-center justify-center h-[50px] w-[50px]'>
-                <img src='./email-icon.svg' className='w-[28px] h-[28px]' />
+                <Image src={'./email-icon.svg'} width={28} height={28} alt="email" />
               </RainbowButton>
             </a>
             <a href={LINKS.twitter} aria-label="resume pdf file" target="_blank">
               <RainbowButton className='py-0 px-0 bg-white flex items-center justify-center h-[50px] w-[50px]'>
-                <img src='./twitter-icon.svg' className='w-[25px] h-[25px]' />
+                <Image src={'./twitter-icon.svg'} width={25} height={25} alt="twitter" />
               </RainbowButton>
             </a>
           </div>
@@ -43,7 +44,7 @@ function AboutCard() {
 
           <a href={LINKS.resume} aria-label="resume pdf file" target="_blank" className='w-[80%] h-[65px]'>
             <button className='w-full h-full bg-red-400 rounded-md border border-s-slate-300 flex items-center justify-center gap-2'>
-              <img src='./resume.svg' className='h-6 w-6' alt='NayanWadekar' />
+              <Image src={'./resume.svg'} width={25} height={25} alt="document" />
               <span className='font-mono font-semibold text-white'>Download Resume</span>
             </button>
           </a>
