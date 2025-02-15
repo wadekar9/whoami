@@ -151,7 +151,7 @@ export const DATA = {
       href: "https://www.englishmuni.com/",
       active: true,
       description:
-        "In the Spoken English Guru app, I implemented a real-time voice calling feature using [Firebase](https://firebase.google.com/) and [ZegoCloud SDK](https://www.zegocloud.com). This feature allows users to connect with random individuals within the app, creating an interactive environment for practicing spoken English.",
+        "In the Spoken English Guru app, I implemented a real-time voice calling feature using [Firebase](https://firebase.google.com) and [ZegoCloud SDK](https://www.zegocloud.com). This feature allows users to connect with random individuals within the app, creating an interactive environment for practicing spoken English.",
       technologies: [
         "React Native",
         "Javascript",
@@ -168,7 +168,115 @@ export const DATA = {
       ],
       image: "/assets/project-01.png",
       video: ""
-    }
+    },
+    {
+      title: "HiBro App",
+      href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
+      active: true,
+      description:
+        "Implemented the core communication features in HiBro—real-time voice and video calling and chat functionality—by leveraging [React Native](https://reactnative.dev) for cross-platform development, [Firebase Firestore](https://firebase.google.com) for real-time data synchronization, and the [ZegoCloud SDK](https://www.zegocloud.com) for robust call performance, enabling users to engage in seamless, privacy-protected interactions to practice spoken and written English on a variety of topics.",
+      technologies: [
+        "React Native",
+        "Javascript",
+        "Typescript",
+        "Firebase",
+        "Zegocloud SDK"
+      ],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
+      image: "/assets/project-02.png",
+      video: ""
+    },
+    {
+      title: "Voter Connect - Jerrod for Congress",
+      href: "https://www.jerrodforcongress.com/",
+      active: true,
+      description:
+        "Implemented multi-user login, Firebase phone number authentication, dark/light mode, in-app language translation (English & Spanish), chat functionality, and push notifications via FCM in Voter Connect using React Native, ensuring secure authentication, real-time communication, and an optimized user experience.",
+      technologies: [
+        "React Native",
+        "Typescript",
+        "Firebase"
+      ],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.sessler2024",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
+      image: "/assets/project-03.png",
+      video: ""
+    },
+    {
+      title: "Time me AI",
+      href: "https://timemeapp.com/",
+      active: true,
+      description:
+        "Implemented real-time chat functionality via Firebase Firestore—supporting peer-to-peer, peer-to-many, and many-to-many interactions—push notifications using FCM and APN, and an event calendar for managing events and plans in Time me AI.",
+      technologies: [
+        "React Native",
+        "Typescript",
+        "Firebase"
+      ],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/developer?id=TimeMe.AI+Inc.",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://play.google.com/video/lava/web/player/yt:movie:ZmOwV3I0DLw?autoplay=1&authuser=0&embed=play"
+    },
+    {
+      title: "Repair-it Car & Bike Service",
+      href: "https://play.google.com/store/apps/developer?id=Protomotive+Technologies+Pvt.+Ltd.",
+      active: true,
+      description:
+        "Implemented authentication, car and bike service booking functionality with integrated multi-role support for customers, delivery personnel, and partner service providers, along with push notifications via FCM in Repair-it Car & Bike Services.",
+      technologies: [
+        "React Native",
+        "Typescript",
+        "Firebase"
+      ],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.protomotivetechnologies.user",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
+      image: "/assets/project-05.png",
+      video: ""
+    },
+    {
+      title: "NED Mart",
+      href: "https://nedmart.com",
+      active: true,
+      description:
+        "Implemented authentication, car and bike service booking functionality with integrated multi-role support for customers, delivery personnel, and partner service providers, along with push notifications via FCM in Repair-it Car & Bike Services.",
+      technologies: [
+        "React Native",
+        "Javascript",
+        "Firebase",
+        "REST API"
+      ],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.ned_mart",
+          icon: <Icons.smartphone className="size-3" />
+        },
+      ],
+      image: "/assets/project-06.png",
+      video: ""
+    },
   ],
   hackathons: []
 } as const;
