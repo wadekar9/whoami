@@ -73,7 +73,7 @@ export default function Page() {
                   Check out my latest work
                 </h2> */}
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
+                  I've worked on a variety of projects, from simple
                   apps to complex mobile applications. Here're a few of my projects.
                 </p>
               </div>
@@ -90,7 +90,6 @@ export default function Page() {
                   key={project.title}
                   title={project.title}
                   description={project.description}
-                  dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
