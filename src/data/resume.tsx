@@ -11,7 +11,7 @@ export const DATA = {
     "Building high-performance mobile apps using React Native. Let's turn your app idea into a reality",
   summary:
     "Hi, I'm Nayan Wadekar—a passionate and results-driven React Native developer with over [3 years of hands-on experience](#) in creating high-performance, cross-platform mobile apps. I specialize in building seamless, user-friendly experiences that bridge the gap between iOS and Android. My expertise in React Native allows me to [craft robust, scalable apps](#) that meet both business needs and user expectations. I'm always [exploring new technologies and development practices](#) to push the boundaries of mobile app development, and I'm committed to delivering solutions that are [both innovative and efficient](#).",
-  avatarUrl: "/me.png",
+  avatarUrl: "./me.png",
   skills: [
     {
       label: "Languages",
@@ -166,7 +166,7 @@ export const DATA = {
           icon: <Icons.smartphone className="size-3" />,
         },
       ],
-      image: "/assets/project-01.png",
+      image: "./englishmuni.png",
       video: ""
     },
     {
@@ -189,7 +189,7 @@ export const DATA = {
           icon: <Icons.smartphone className="size-3" />,
         },
       ],
-      image: "/assets/project-02.png",
+      image: "./hibro.png",
       video: ""
     },
     {
@@ -210,7 +210,7 @@ export const DATA = {
           icon: <Icons.smartphone className="size-3" />,
         },
       ],
-      image: "/assets/project-03.png",
+      image: "./jerrod.png",
       video: ""
     },
     {
@@ -252,7 +252,7 @@ export const DATA = {
           icon: <Icons.smartphone className="size-3" />,
         },
       ],
-      image: "/assets/project-05.png",
+      image: "./repairit.png",
       video: ""
     },
     {
@@ -274,7 +274,7 @@ export const DATA = {
           icon: <Icons.smartphone className="size-3" />
         },
       ],
-      image: "/assets/project-06.png",
+      image: "./nedmart.png",
       video: ""
     },
   ],
