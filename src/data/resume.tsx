@@ -75,7 +75,7 @@ export const DATA = {
       },
       Resume: {
         name: "Download Resume",
-        url: "https://shorturl.at/2Ukql",
+        url: "https://shorturl.at/UkauA",
         icon: Icons.resumecv,
         navbar: true,
       },
