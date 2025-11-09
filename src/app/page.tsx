@@ -27,6 +27,11 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <BlurFadeText
+                className="max-w-[600px] md:text-xl"
+                delay={BLUR_FADE_DELAY}
+                text={DATA.description1}
+              />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -44,6 +49,11 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
             {DATA.summary}
+          </Markdown>
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 5}>
+          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert mt-2">
+            {DATA.summary1}
           </Markdown>
         </BlurFade>
       </section>
@@ -73,8 +83,9 @@ export default function Page() {
                   Check out my latest work
                 </h2> */}
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  apps to complex mobile applications. Here&apos;re a few of my projects.
+                  I&apos;ve worked on a variety of projects, from simple apps to
+                  complex mobile applications. Here&apos;re a few of my
+                  projects.
                 </p>
               </div>
             </div>
@@ -89,7 +100,6 @@ export default function Page() {
                   href={project.href}
                   key={project.title}
                   title={project.title}
-                  description={project.description}
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}

@@ -7,44 +7,77 @@ export const DATA = {
   url: "https://wadekar9.github.io/whoami/",
   location: "Surat, Gujarat, India",
   locationLink: "https://www.google.com/maps/place/surat",
-  description:
-    "Building high-performance mobile apps using React Native. Let's turn your app idea into a reality",
+  description: "React Native + TypeScript • iOS & Android",
+  description1:
+    "15+ shipped apps | Clean UI, smooth performance, solid architecture",
   summary:
-    "Hi, I'm Nayan Wadekar—a passionate and results-driven React Native developer with over [3 years of hands-on experience](#) in creating high-performance, cross-platform mobile apps. I specialize in building seamless, user-friendly experiences that bridge the gap between iOS and Android. My expertise in React Native allows me to [craft robust, scalable apps](#) that meet both business needs and user expectations. I'm always [exploring new technologies and development practices](#) to push the boundaries of mobile app development, and I'm committed to delivering solutions that are [both innovative and efficient](#).",
+    "I'm a React Native engineer with hands-on experience building production apps using React Native, TypeScript, Reanimated, Redux Toolkit, Zustand, and Firebase. My work typically involves implementing clean navigation flows, optimizing performance, creating reusable components, handling real-time features, and integrating third-party SDKs.",
+  summary1:
+    "I enjoy solving practical engineering problems—reducing re-renders, improving load times, structuring scalable codebases, and making UI interactions smooth. I’ve delivered 15+ apps end-to-end and I’m always refining my approach to architecture, testing, and developer experience.",
   avatarUrl: "./me.png",
   skills: [
     {
       label: "Languages",
-      stack: ["Javascript", "Typescript", "Dart", "JSON", "C/C++", "HTML+CSS"],
+      stack: ["Javascript", "Typescript", "Kotlin", "C/C++"],
     },
     {
-      label: "Frameworks",
-      stack: ["React Native", "Expo", "Flutter", "React.js", "Next.js"],
+      label: "Technologies/Frameworks",
+      stack: [
+        "React Native",
+        "Expo",
+        "React.js",
+        "Android(Intermediate)",
+        "iOS(Beginner)",
+      ],
     },
     {
       label: "Libraries",
-      stack: ["Tailwind", "Jest", "Redux", "Redux-Toolkit", "Redux-Saga", "Zustand"],
+      stack: [
+        "Redux",
+        "Redux-Toolkit",
+        "React Query",
+        "Redux-Saga",
+        "Zustand",
+        "Tailwind",
+        "Jest",
+        "Reanimated",
+        "RN Skia",
+        "React Navigation",
+        "MMKV",
+      ],
     },
     {
       label: "Database",
-      stack: ["Firebase", "Appwrite", "SQLite"],
+      stack: ["Firebase", "SQLite"],
     },
     {
       label: "Dev Tools",
-      stack: ["VSCode", "Android Studio", "Xcode", "Postman", "Git", "Github", "BitBucket", "Figma", "Agile Development"],
+      stack: [
+        "Git/GitHub",
+        "Postman",
+        "VS Code",
+        "Android Studio",
+        "Xcode",
+        "Vysor",
+      ],
     },
     {
-      label: "AI Tools",
-      stack: ["ChatGPT", "Deepseek", "Claude AI"],
+      label: "Others",
+      stack: [
+        "JSON",
+        "REST APIs",
+        "Stripe SDK",
+        "Zegocloud SDK",
+        "CI/CD (Expo EAS)",
+        "SQL",
+      ],
     },
     {
       label: "Operaing Systems",
-      stack: ["MacOS", "Windows"]
-    }
+      stack: ["MacOS", "Windows"],
+    },
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" }
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "npwadekar7@gmail.com",
     tel: "",
@@ -75,7 +108,7 @@ export const DATA = {
       },
       Resume: {
         name: "Download Resume",
-        url: "https://shorturl.at/UkauA",
+        url: "https://drive.google.com/file/d/1GATqJ4PYM0gWYNxy1FPD458cTccOuJ3V/view?usp=sharing",
         icon: Icons.resumecv,
         navbar: true,
       },
@@ -91,7 +124,7 @@ export const DATA = {
       logoUrl: "./tecocraft.png",
       start: "January 2024",
       end: "Present",
-      description: ""
+      description: "",
     },
     {
       company: "Upwork",
@@ -102,7 +135,7 @@ export const DATA = {
       logoUrl: "./upwork.png",
       start: "June 2023",
       end: "Present",
-      description: ""
+      description: "",
     },
     {
       company: "Sridix Technology",
@@ -113,7 +146,7 @@ export const DATA = {
       logoUrl: "./sridix.png",
       start: "October 2022",
       end: "January 2024",
-      description: ""
+      description: "",
     },
     {
       company: "Sridix Technology",
@@ -124,8 +157,8 @@ export const DATA = {
       logoUrl: "./sridix.png",
       start: "July 2022",
       end: "September 2022",
-      description: ""
-    }
+      description: "",
+    },
   ],
   education: [
     {
@@ -134,7 +167,7 @@ export const DATA = {
       degree: "Bachelor's Degree of Science (BSCIT)",
       logoUrl: "./baou.png",
       start: "2024",
-      end: "Present"
+      end: "Present",
     },
     {
       school: "Gujarat Technological University",
@@ -142,22 +175,40 @@ export const DATA = {
       degree: "Bachelor's Degree of Engineering (BE)",
       logoUrl: "./gtu.png",
       start: "2018",
-      end: "2020"
-    }
+      end: "2020",
+    },
   ],
   projects: [
     {
-      title: "Englist Muni App",
+      title: "Beedee - Dating App",
+      href: "https://beedee.com/",
+      active: true,
+      technologies: ["React Native", "Redux Toolkit", "Firebase", "Typescript"],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.beedee.app",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+        {
+          type: "App Store",
+          href: "https://apps.apple.com/us/app/beedee/id1614103533",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
+      image: "./beedee.png",
+      video: "",
+    },
+    {
+      title: "Spoken English Guru",
       href: "https://www.englishmuni.com/",
       active: true,
-      description:
-        "In the Spoken English Guru app, I implemented a real-time voice calling feature using [Firebase](https://firebase.google.com) and [ZegoCloud SDK](https://www.zegocloud.com). This feature allows users to connect with random individuals within the app, creating an interactive environment for practicing spoken English.",
       technologies: [
-        "React Native",
-        "Javascript",
-        "Typescript",
         "Firebase",
-        "Zegocloud SDK"
+        "ZegoCloud",
+        "React Native",
+        "Typescript",
+        "Redux Toolkit",
       ],
       links: [
         {
@@ -167,20 +218,18 @@ export const DATA = {
         },
       ],
       image: "./englishmuni.png",
-      video: ""
+      video: "",
     },
     {
       title: "HiBro App",
       href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
       active: true,
-      description:
-        "Implemented the core communication features in HiBro—real-time voice and video calling and chat functionality—by leveraging [React Native](https://reactnative.dev) for cross-platform development, [Firebase Firestore](https://firebase.google.com) for real-time data synchronization, and the [ZegoCloud SDK](https://www.zegocloud.com) for robust call performance, enabling users to engage in seamless, privacy-protected interactions to practice spoken and written English on a variety of topics.",
       technologies: [
+        "Expo",
         "React Native",
-        "Javascript",
         "Typescript",
-        "Firebase",
-        "Zegocloud SDK"
+        "Firebase - Firestore, Auth, FCMS",
+        "Zegocloud SDK",
       ],
       links: [
         {
@@ -190,39 +239,34 @@ export const DATA = {
         },
       ],
       image: "./hibro.png",
-      video: ""
+      video: "",
     },
     {
-      title: "Voter Connect - Jerrod for Congress",
-      href: "https://www.jerrodforcongress.com/",
+      title: "AI Wealth Calculator : 401k",
+      href: "https://growlifefund.com/",
       active: true,
-      description:
-        "Implemented multi-user login, Firebase phone number authentication, dark/light mode, in-app language translation (English & Spanish), chat functionality, and push notifications via FCM in Voter Connect using React Native, ensuring secure authentication, real-time communication, and an optimized user experience.",
-      technologies: [
-        "React Native",
-        "Typescript",
-        "Firebase"
-      ],
+      technologies: ["React Native", "Typescript", "Google-AdMob", "Zustand"],
       links: [
         {
           type: "Play Store",
-          href: "https://play.google.com/store/apps/details?id=com.sessler2024",
+          href: "https://play.google.com/store/apps/details?id=com.growlifefund",
           icon: <Icons.smartphone className="size-3" />,
         },
       ],
-      image: "./jerrod.png",
-      video: ""
+      image: "./growlifefund.png",
+      video: "",
     },
     {
-      title: "Time me AI",
+      title: "Timeme App",
       href: "https://timemeapp.com/",
       active: true,
-      description:
-        "Implemented real-time chat functionality via Firebase Firestore—supporting peer-to-peer, peer-to-many, and many-to-many interactions—push notifications using FCM and APN, and an event calendar for managing events and plans in Time me AI.",
       technologies: [
         "React Native",
         "Typescript",
-        "Firebase"
+        "Firebase",
+        "Redux Toolkit",
+        "MMKV",
+        "Google-Calendar",
       ],
       links: [
         {
@@ -231,20 +275,29 @@ export const DATA = {
           icon: <Icons.smartphone className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://play.google.com/video/lava/web/player/yt:movie:ZmOwV3I0DLw?autoplay=1&authuser=0&embed=play"
+      image: "./timeme.png",
+      video: "",
+    },
+    {
+      title: "Voter Connect - Jerrod for Congress",
+      href: "https://www.jerrodforcongress.com/",
+      active: true,
+      technologies: ["Expo", "React Native", "Typescript", "React-Context"],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.sessler2024",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
+      image: "./jerrod.png",
+      video: "",
     },
     {
       title: "Repair-it Car & Bike Service",
       href: "https://play.google.com/store/apps/developer?id=Protomotive+Technologies+Pvt.+Ltd.",
       active: true,
-      description:
-        "Implemented authentication, car and bike service booking functionality with integrated multi-role support for customers, delivery personnel, and partner service providers, along with push notifications via FCM in Repair-it Car & Bike Services.",
-      technologies: [
-        "React Native",
-        "Typescript",
-        "Firebase"
-      ],
+      technologies: ["React Native", "Typescript", "Firebase"],
       links: [
         {
           type: "Play Store",
@@ -253,30 +306,33 @@ export const DATA = {
         },
       ],
       image: "./repairit.png",
-      video: ""
+      video: "",
     },
     {
-      title: "NED Mart",
-      href: "https://nedmart.com",
+      title: "React Native Template",
+      href: "https://github.com/wadekar9/rn-awesome-boilerplate",
       active: true,
-      description:
-        "Implemented authentication, car and bike service booking functionality with integrated multi-role support for customers, delivery personnel, and partner service providers, along with push notifications via FCM in Repair-it Car & Bike Services.",
       technologies: [
         "React Native",
-        "Javascript",
+        "Typescript",
         "Firebase",
-        "REST API"
+        "Expo",
+        "Redux Toolkit",
+        "React Navigation",
+        "MMKV",
+        "i18next",
+        "SVG",
       ],
       links: [
         {
-          type: "Play Store",
-          href: "https://play.google.com/store/apps/details?id=com.ned_mart",
-          icon: <Icons.smartphone className="size-3" />
+          type: "GitHub",
+          href: "https://github.com/wadekar9/rn-awesome-boilerplate",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "./nedmart.png",
-      video: ""
+      image: "./react-native.png",
+      video: "",
     },
   ],
-  hackathons: []
+  hackathons: [],
 } as const;
