@@ -7,13 +7,12 @@ export const DATA = {
   url: "https://wadekar9.github.io/whoami/",
   location: "Surat, Gujarat, India",
   locationLink: "https://www.google.com/maps/place/surat",
-  description: "React Native + TypeScript • iOS & Android",
-  description1:
-    "15+ shipped apps | Clean UI, smooth performance, solid architecture",
+  description: "Mobile Engineer (React Native) | 15+ Apps Shipped",
+  description1: "TypeScript • iOS & Android • Pixel Perfect & Responsive UI • Performance • Scalable Apps",
   summary:
-    "I'm a React Native engineer with hands-on experience building production apps using React Native, TypeScript, Reanimated, Redux Toolkit, Zustand, and Firebase. My work typically involves implementing clean navigation flows, optimizing performance, creating reusable components, handling real-time features, and integrating third-party SDKs.",
+    "I'm a Mobile Engineer with experience building and shipping 15+ production-grade mobile applications using React Native and TypeScript. I work across the full mobile development lifecycle — from implementing features and designing clean architectures to optimizing performance and preparing apps for release on both iOS and Android. My focus is on building reliable, scalable applications with smooth, consistent user experiences.",
   summary1:
-    "I enjoy solving practical engineering problems—reducing re-renders, improving load times, structuring scalable codebases, and making UI interactions smooth. I’ve delivered 15+ apps end-to-end and I’m always refining my approach to architecture, testing, and developer experience.",
+    "I specialize in developing pixel-perfect UI, creating reusable components, and integrating real-world features such as real-time functionality, third-party SDKs, and backend services like Firebase. I also spend time improving performance and maintainability — reducing unnecessary re-renders, optimizing load times, and structuring codebases that are easy to scale and maintain. I enjoy collaborating with designers and engineers to turn ideas into well-crafted mobile experiences, and I’m always exploring better ways to build, structure, and ship high-quality apps.",
   avatarUrl: "./me.png",
   skills: [
     {
@@ -26,50 +25,48 @@ export const DATA = {
         "React Native",
         "Expo",
         "React.js",
-        "Android(Intermediate)",
-        "iOS(Beginner)",
+        "Android"
       ],
     },
     {
       label: "Libraries",
       stack: [
-        "Redux",
-        "Redux-Toolkit",
-        "React Query",
-        "Redux-Saga",
         "Zustand",
+        "Redux-Toolkit",
+        "React-Query",
+        "Core Redux",
         "Tailwind",
         "Jest",
         "Reanimated",
-        "RN Skia",
+        "RN-Skia",
         "React Navigation",
         "MMKV",
       ],
     },
     {
       label: "Database",
-      stack: ["Firebase", "SQLite"],
+      stack: ["Firebase", "Appwrite", "SQLite"],
     },
     {
       label: "Dev Tools",
       stack: [
-        "Git/GitHub",
-        "Postman",
-        "VS Code",
+        "Antigravity",
         "Android Studio",
         "Xcode",
+        "VS Code",
+        "Cursor",
+        "Git",
+        "GitHub",
+        "Postman",
         "Vysor",
       ],
     },
     {
       label: "Others",
       stack: [
+        "Tailwind CSS",
         "JSON",
-        "REST APIs",
-        "Stripe SDK",
-        "Zegocloud SDK",
-        "CI/CD (Expo EAS)",
-        "SQL",
+        "SQL"
       ],
     },
     {
@@ -108,7 +105,7 @@ export const DATA = {
       },
       Resume: {
         name: "Download Resume",
-        url: "https://drive.google.com/file/d/1GATqJ4PYM0gWYNxy1FPD458cTccOuJ3V/view?usp=sharing",
+        url: "",
         icon: Icons.resumecv,
         navbar: true,
       },
@@ -123,17 +120,6 @@ export const DATA = {
       title: "React Native Developer",
       logoUrl: "./tecocraft.png",
       start: "January 2024",
-      end: "Present",
-      description: "",
-    },
-    {
-      company: "Upwork",
-      badges: [],
-      href: "https://www.upwork.com",
-      location: "Remote",
-      title: "Freelance React Native Developer",
-      logoUrl: "./upwork.png",
-      start: "June 2023",
       end: "Present",
       description: "",
     },
@@ -180,10 +166,61 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "SilentSafe - Offline Password Manager",
+      href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
+      active: true,
+      technologies: [
+        "Biometric Authentication",
+        "AES-256 Encryption",
+        "Material Design 3",
+        "SecureStorage",
+        "Secure SQLite",
+        "Tailwind CSS",
+        "i18n"
+      ],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
+          icon: <Icons.smartphone className="size-3" />,
+        }
+      ],
+      image: "./silent-safe.png",
+      video: "",
+    },
+    {
+      title: "ConvertioX - File Converter",
+      href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.convertiox.compressfile.file_converter.tools.imagetopdf.document.ocrtext.pdftools",
+      active: true,
+      technologies: [
+        "File Management",
+        "PDF/Image Tools",
+        "OCR",
+        "QR Scanner",
+        "Firebase",
+        "Typescript"
+      ],
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.convertiox.compressfile.file_converter.tools.imagetopdf.document.ocrtext.pdftools",
+          icon: <Icons.smartphone className="size-3" />,
+        }
+      ],
+      image: "./converter-app.png",
+      video: "",
+    },
+    {
       title: "Beedee - Dating App",
       href: "https://beedee.com/",
       active: true,
-      technologies: ["React Native", "Redux Toolkit", "Firebase", "Typescript"],
+      technologies: [
+        "Real-time Messaging",
+        "FCM/APNs",
+        "Redux-Toolkit",
+        "Firebase",
+        "Typescript"
+      ],
       links: [
         {
           type: "Play Store",
@@ -200,36 +237,16 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Spoken English Guru",
-      href: "https://www.englishmuni.com/",
-      active: true,
-      technologies: [
-        "Firebase",
-        "ZegoCloud",
-        "React Native",
-        "Typescript",
-        "Redux Toolkit",
-      ],
-      links: [
-        {
-          type: "Play Store",
-          href: "https://play.google.com/store/apps/details?id=com.englishmuni",
-          icon: <Icons.smartphone className="size-3" />,
-        },
-      ],
-      image: "./englishmuni.png",
-      video: "",
-    },
-    {
       title: "HiBro App",
       href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
       active: true,
       technologies: [
-        "Expo",
-        "React Native",
-        "Typescript",
-        "Firebase - Firestore, Auth, FCMS",
-        "Zegocloud SDK",
+        "Real-time Messaging(Firestore)",
+        "ZegoCloud",
+        "FCM/APNs",
+        "Core Redux",
+        "Firebase",
+        "Typescript/JavaScript"
       ],
       links: [
         {
@@ -245,7 +262,15 @@ export const DATA = {
       title: "AI Wealth Calculator : 401k",
       href: "https://growlifefund.com/",
       active: true,
-      technologies: ["React Native", "Typescript", "Google-AdMob", "Zustand"],
+      technologies: [
+        "i18n",
+        "Google-AdMob",
+        "Firebase Analytics",
+        "Victory Native Charts",
+        "React Native",
+        "Typescript",
+        "Zustand"
+      ],
       links: [
         {
           type: "Play Store",
@@ -254,58 +279,6 @@ export const DATA = {
         },
       ],
       image: "./growlifefund.png",
-      video: "",
-    },
-    {
-      title: "Timeme App",
-      href: "https://timemeapp.com/",
-      active: true,
-      technologies: [
-        "React Native",
-        "Typescript",
-        "Firebase",
-        "Redux Toolkit",
-        "MMKV",
-        "Google-Calendar",
-      ],
-      links: [
-        {
-          type: "Play Store",
-          href: "https://play.google.com/store/apps/developer?id=TimeMe.AI+Inc.",
-          icon: <Icons.smartphone className="size-3" />,
-        },
-      ],
-      image: "./timeme.png",
-      video: "",
-    },
-    {
-      title: "Voter Connect - Jerrod for Congress",
-      href: "https://www.jerrodforcongress.com/",
-      active: true,
-      technologies: ["Expo", "React Native", "Typescript", "React-Context"],
-      links: [
-        {
-          type: "Play Store",
-          href: "https://play.google.com/store/apps/details?id=com.sessler2024",
-          icon: <Icons.smartphone className="size-3" />,
-        },
-      ],
-      image: "./jerrod.png",
-      video: "",
-    },
-    {
-      title: "Repair-it Car & Bike Service",
-      href: "https://play.google.com/store/apps/developer?id=Protomotive+Technologies+Pvt.+Ltd.",
-      active: true,
-      technologies: ["React Native", "Typescript", "Firebase"],
-      links: [
-        {
-          type: "Play Store",
-          href: "https://play.google.com/store/apps/details?id=com.protomotivetechnologies.user",
-          icon: <Icons.smartphone className="size-3" />,
-        },
-      ],
-      image: "./repairit.png",
       video: "",
     },
     {
@@ -320,7 +293,7 @@ export const DATA = {
         "Redux Toolkit",
         "React Navigation",
         "MMKV",
-        "i18next",
+        "i18n",
         "SVG",
       ],
       links: [
