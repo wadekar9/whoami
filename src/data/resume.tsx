@@ -105,7 +105,7 @@ export const DATA = {
       },
       Resume: {
         name: "Download Resume",
-        url: "https://drive.google.com/file/d/1C4BAps9VVvHDd2TqCAEtdpWp3tb-cs42/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1uT25FFNlG5tFPKQO-CZMF0wptfLhzOI6/view?usp=sharing",
         icon: Icons.resumecv,
         navbar: true,
       },
