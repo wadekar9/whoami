@@ -394,27 +394,23 @@ export const DATA = {
     },
   ],
 
-  social: {
-    GitHub: {
-      name: "GitHub",
-      url: "https://github.com/wadekar9",
+  social: [
+    {
+      icon: <Icons.github />,
+      type: "GitHub",
+      href: "https://github.com/wadekar9",
     },
-
-    LinkedIn: {
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/in/nayan-wadekar-855253197/",
+    {
+      icon: <Icons.linkedin />,
+      type: "LinkedIn",
+      href: "https://www.linkedin.com/in/nayan-wadekar-855253197/",
     },
-
-    X: {
-      name: "X",
-      url: "",
+    {
+      icon: <Icons.mail />,
+      type: "Email",
+      href: "mailto:npwadekar7@gmail.com",
     },
-
-    Email: {
-      name: "Email",
-      url: "mailto:npwadekar7@gmail.com",
-    },
-  },
+  ],
 
   contact: {
     email: "npwadekar7@gmail.com",
