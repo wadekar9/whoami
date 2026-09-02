@@ -3,66 +3,68 @@ import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Nayan Wadekar",
-  initials: "NW",
-
+  initials: "NPW",
   url: "https://wadekar9.github.io/whoami/",
   location: "Surat, Gujarat, India",
+  locationLink: "https://www.google.com/maps/place/surat",
 
   description: "React Native Developer | 4+ Years | 15+ Mobile Apps",
   description1:
     "React Native • TypeScript • Expo • Android/Kotlin • Performance • Scalable Mobile Apps",
 
   summary:
-    "I'm a React Native Developer with 4+ years of professional experience building cross-platform mobile applications for iOS and Android. I work across the full mobile development lifecycle, from architecture and reusable UI components to API integration, state management, third-party SDKs, performance optimization, debugging, testing, and app releases.",
+    "I'm a React Native Developer with 4+ years of professional experience building cross-platform mobile applications for iOS and Android. I work across the full mobile development lifecycle, from implementing features and designing reusable architectures to API integration, state management, performance optimization, debugging, testing, and app releases.",
 
   summary1:
-    "I've built mobile applications involving real-time communication, service booking, authentication, push notifications, maps, payments, and secure local storage. I'm also deepening my native Android expertise with Kotlin and Jetpack Compose while exploring React Native's New Architecture, including Fabric, Turbo Modules, JSI, and native bridging.",
+    "I've built mobile applications involving real-time communication, service booking, authentication, push notifications, maps, payments, and secure local storage. I also work with Kotlin and Jetpack Compose while exploring React Native's New Architecture, including Fabric, Turbo Modules, JSI, and native bridging. I enjoy improving application performance, maintainability, and user experience while collaborating with designers and engineers to deliver reliable mobile products.",
 
   avatarUrl: "./me.png",
 
   skills: [
     {
       label: "Languages",
-      stack: [
-        "JavaScript",
-        "TypeScript",
-        "Kotlin",
-      ],
+      stack: ["JavaScript", "TypeScript", "Kotlin"],
     },
-
     {
-      label: "Mobile",
+      label: "Technologies/Frameworks",
       stack: [
         "React Native",
         "Expo",
         "Expo Router",
+        "React.js",
         "Android",
         "iOS",
         "Jetpack Compose",
         "XML",
       ],
     },
-
     {
-      label: "React Native",
+      label: "Libraries",
       stack: [
         "Redux Toolkit",
         "React Query",
         "Zustand",
         "React Navigation",
         "Reanimated",
+        "Jest",
+        "Testing Library",
+        "MMKV",
+      ],
+    },
+    {
+      label: "React Native",
+      stack: [
         "New Architecture",
         "Fabric",
         "Turbo Modules",
         "JSI",
         "Native Bridging",
+        "Native Modules",
       ],
     },
-
     {
-      label: "Backend & Storage",
+      label: "Database",
       stack: [
-        "REST APIs",
         "Firebase",
         "Appwrite",
         "SQLite",
@@ -70,114 +72,122 @@ export const DATA = {
         "AsyncStorage",
       ],
     },
-
     {
-      label: "SDKs & Integrations",
+      label: "Dev Tools",
       stack: [
+        "Android Studio",
+        "Xcode",
+        "VS Code",
+        "Cursor",
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Postman",
+        "Fastlane",
+      ],
+    },
+    {
+      label: "Others",
+      stack: [
+        "REST APIs",
         "Firebase Auth",
         "Firebase Firestore",
         "FCM",
         "Google Maps",
         "ZegoCloud",
         "Stripe",
-      ],
-    },
-
-    {
-      label: "Testing & Delivery",
-      stack: [
-        "Jest",
-        "Testing Library",
-        "Git",
-        "GitHub",
-        "GitLab",
-        "Fastlane",
         "CI/CD",
-        "Google Play",
-        "App Store",
+        "Performance Optimization",
+        "Debugging",
       ],
     },
-
     {
-      label: "Development Tools",
-      stack: [
-        "Android Studio",
-        "Xcode",
-        "VS Code",
-        "Cursor",
-        "Postman",
-        "Vysor",
-      ],
+      label: "Operating Systems",
+      stack: ["MacOS", "Windows"],
     },
   ],
+
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
+
+  contact: {
+    email: "npwadekar7@gmail.com",
+    tel: "",
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/wadekar9",
+        icon: Icons.github,
+        navbar: true,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/nayan-wadekar-855253197/",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "https://x.com/nayan_wadekar?t=g_qw7RFAMYakXP0oiGhWdw&s=09",
+        icon: Icons.x,
+        navbar: true,
+      },
+      Email: {
+        name: "Send Email",
+        url: "mailto:npwadekar7@gmail.com",
+        icon: Icons.email,
+        navbar: true,
+      },
+      Resume: {
+        name: "Download Resume",
+        url: "https://drive.google.com/file/d/1uT25FFNlG5tFPKQO-CZMF0wptfLhzOI6/view?usp=sharing",
+        icon: Icons.resumecv,
+        navbar: true,
+      },
+    },
+  },
 
   work: [
     {
       company: "Tecocraft Infusion Pvt Ltd",
-      href: "",
+      href: "https://www.tecocraft.com/",
       badges: [],
-      location: "India",
+      location: "Surat, Gujarat, India",
       title: "React Native Developer",
-      logoUrl: "",
-      start: "Jan 2024",
-      end: "Jun 2026",
-
-      description: [
-        "Built and maintained 5+ production cross-platform mobile applications using React Native, Expo, TypeScript, and JavaScript across UI development, API integration, testing, and releases.",
-
-        "Designed reusable authentication, networking, and state-management solutions using Firebase Auth, Google/Apple Sign-In, Redux Toolkit, React Query, Axios, and Zod.",
-
-        "Improved application performance by addressing startup and rendering delays, unnecessary re-renders, memory issues, large-list performance, and API/network bottlenecks using profiling and logging.",
-
-        "Investigated and resolved production crashes, defects, build issues, and release problems while supporting iOS and Android deployments through the Apple App Store and Google Play Store.",
-
-        "Reviewed pull requests and mentored 5-7 junior developers and peers on project architecture, folder structure, state management, coding practices, performance optimization, and problem-solving.",
-      ],
+      logoUrl: "./tecocraft.png",
+      start: "January 2024",
+      end: "June 2026",
+      description: "",
     },
-
     {
       company: "Sridix Technology",
-      href: "",
+      href: "https://www.sridix.com",
       badges: [],
-      location: "India",
+      location: "Surat, Gujarat, India",
       title: "Mobile App Developer",
-      logoUrl: "",
-      start: "Oct 2022",
-      end: "Jan 2024",
-
-      description: [
-        "Delivered 8 production React Native applications across e-commerce, social, and messaging use cases, contributing across requirements, development, testing, and App Store/Google Play releases.",
-
-        "Built applications from scratch using React Native, Expo, Expo Router, TypeScript, JavaScript, SQLite, MMKV, and AsyncStorage with reusable UI components and scalable project structures.",
-
-        "Integrated REST APIs, Firebase, and ZegoCloud for authentication, real-time communication, chat, push notifications, and data synchronization.",
-
-        "Diagnosed and optimized rendering performance, large-list handling, API/network performance, memory usage, and production issues through debugging, profiling, and logging.",
-      ],
+      logoUrl: "./sridix.png",
+      start: "October 2022",
+      end: "January 2024",
+      description: "",
     },
-
     {
       company: "Sridix Technology",
-      href: "",
+      href: "https://www.sridix.com",
       badges: [],
-      location: "India",
+      location: "Surat, Gujarat, India",
       title: "Developer Intern",
-      logoUrl: "",
-      start: "Jul 2022",
-      end: "Sep 2022",
-
-      description: [
-        "Contributed to React Native mobile application development while gaining hands-on experience with cross-platform UI development, API integration, debugging, and project workflows.",
-      ],
+      logoUrl: "./sridix.png",
+      start: "July 2022",
+      end: "September 2022",
+      description: "",
     },
   ],
 
   education: [
     {
-      school: "Dr. B. R. Ambedkar Open University",
-      href: "",
-      degree: "B.Sc. Information Technology",
-      logoUrl: "",
+      school: "Dr. Babasaheb Ambedkar Open University",
+      href: "https://baou.edu.in/",
+      degree: "Bachelor's Degree of Science (BSCIT)",
+      logoUrl: "./baou.png",
       start: "2024",
       end: "Present",
     },
@@ -187,8 +197,8 @@ export const DATA = {
     {
       title: "Quickfix - Home & Office Service Platform",
       href: "",
-      dates: "In Development",
-      tags: [
+      active: true,
+      technologies: [
         "React Native",
         "Firebase Firestore",
         "FCM",
@@ -197,17 +207,16 @@ export const DATA = {
         "Real-time Chat",
         "State Management",
       ],
-      link: "",
+      links: [],
       image: "./quickfix.png",
       video: "",
-      links: [],
     },
 
     {
       title: "HiBro - English Speaking App",
       href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
-      dates: "",
-      tags: [
+      active: true,
+      technologies: [
         "React Native",
         "TypeScript",
         "ZegoCloud",
@@ -216,71 +225,98 @@ export const DATA = {
         "Redux",
         "Real-time Communication",
       ],
-      link: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
       image: "./hibro.png",
       video: "",
-      links: [],
     },
 
     {
-      title: "SilentSafe - Password Manager",
+      title: "SilentSafe - Offline Password Manager",
       href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
-      dates: "",
-      tags: [
+      active: true,
+      technologies: [
         "React Native",
-        "SQLite",
-        "AES-256",
         "Biometric Authentication",
+        "AES-256 Encryption",
         "Secure Storage",
+        "SQLite",
+        "Material Design 3",
+        "i18n",
       ],
-      link: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
-      image: "./silentsafe.png",
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
+      image: "./silent-safe.png",
       video: "",
-      links: [],
     },
 
     {
-      title: "Beedee - Dating & Messaging App",
+      title: "Beedee - Dating App",
       href: "https://beedee.com/",
-      dates: "",
-      tags: [
+      active: true,
+      technologies: [
         "React Native",
         "TypeScript",
         "Redux Toolkit",
         "Firebase",
-        "FCM",
-        "APNs",
+        "FCM/APNs",
         "Real-time Messaging",
       ],
-      link: "https://beedee.com/",
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.beedee.app",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+        {
+          type: "App Store",
+          href: "https://apps.apple.com/us/app/beedee/id1614103533",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
       image: "./beedee.png",
       video: "",
-      links: [],
     },
 
     {
-      title: "ConvertioX - File & Document Utility",
+      title: "ConvertioX - File Converter",
       href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.convertiox.compressfile.file_converter.tools.imagetopdf.document.ocrtext.pdftools",
-      dates: "",
-      tags: [
+      active: true,
+      technologies: [
         "React Native",
         "TypeScript",
-        "PDF & Image Tools",
+        "File Management",
+        "PDF/Image Tools",
         "OCR",
         "QR Scanner",
         "Firebase",
       ],
-      link: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.convertiox.compressfile.file_converter.tools.imagetopdf.document.ocrtext.pdftools",
-      image: "./convertiox.png",
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.convertiox.compressfile.file_converter.tools.imagetopdf.document.ocrtext.pdftools",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
+      image: "./converter-app.png",
       video: "",
-      links: [],
     },
 
     {
-      title: "AI Wealth Calculator",
+      title: "AI Wealth Calculator : 401k",
       href: "https://growlifefund.com/",
-      dates: "",
-      tags: [
+      active: true,
+      technologies: [
         "React Native",
         "TypeScript",
         "Zustand",
@@ -289,17 +325,22 @@ export const DATA = {
         "Google AdMob",
         "i18n",
       ],
-      link: "https://growlifefund.com/",
-      image: "./ai-wealth-calculator.png",
+      links: [
+        {
+          type: "Play Store",
+          href: "https://play.google.com/store/apps/details?id=com.growlifefund",
+          icon: <Icons.smartphone className="size-3" />,
+        },
+      ],
+      image: "./growlifefund.png",
       video: "",
-      links: [],
     },
 
     {
-      title: "React Native Awesome Boilerplate",
+      title: "React Native Template",
       href: "https://github.com/wadekar9/rn-awesome-boilerplate",
-      dates: "",
-      tags: [
+      active: true,
+      technologies: [
         "React Native",
         "TypeScript",
         "Expo",
@@ -308,33 +349,19 @@ export const DATA = {
         "Firebase",
         "MMKV",
         "i18n",
+        "SVG",
       ],
-      link: "https://github.com/wadekar9/rn-awesome-boilerplate",
-      image: "./rn-template.png",
+      links: [
+        {
+          type: "GitHub",
+          href: "https://github.com/wadekar9/rn-awesome-boilerplate",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "./react-native.png",
       video: "",
-      links: [],
     },
   ],
 
-  social: [
-    {
-      icon: <Icons.github />,
-      type: "GitHub",
-      href: "https://github.com/wadekar9",
-    },
-    {
-      icon: <Icons.linkedin />,
-      type: "LinkedIn",
-      href: "https://www.linkedin.com/in/nayan-wadekar-855253197/",
-    },
-    {
-      icon: <Icons.mail />,
-      type: "Email",
-      href: "mailto:npwadekar7@gmail.com",
-    },
-  ],
-
-  contact: {
-    email: "npwadekar7@gmail.com",
-  },
-};
+  hackathons: [],
+} as const;
