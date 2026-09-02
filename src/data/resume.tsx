@@ -3,309 +3,420 @@ import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Nayan Wadekar",
-  initials: "NPW",
+  initials: "NW",
+
   url: "https://wadekar9.github.io/whoami/",
   location: "Surat, Gujarat, India",
-  locationLink: "https://www.google.com/maps/place/surat",
-  description: "Mobile Engineer (React Native) | 15+ Apps Shipped",
-  description1: "TypeScript • iOS & Android • Pixel Perfect & Responsive UI • Performance • Scalable Apps",
+
+  description: "React Native Developer | 4+ Years | 15+ Mobile Apps",
+  description1:
+    "React Native • TypeScript • Expo • Android/Kotlin • Performance • Scalable Mobile Apps",
+
   summary:
-    "I'm a Mobile Engineer with experience building and shipping 15+ production-grade mobile applications using React Native and TypeScript. I work across the full mobile development lifecycle — from implementing features and designing clean architectures to optimizing performance and preparing apps for release on both iOS and Android. My focus is on building reliable, scalable applications with smooth, consistent user experiences.",
+    "I'm a React Native Developer with 4+ years of professional experience building cross-platform mobile applications for iOS and Android. I work across the full mobile development lifecycle, from architecture and reusable UI components to API integration, state management, third-party SDKs, performance optimization, debugging, testing, and app releases.",
+
   summary1:
-    "I specialize in developing pixel-perfect UI, creating reusable components, and integrating real-world features such as real-time functionality, third-party SDKs, and backend services like Firebase. I also spend time improving performance and maintainability — reducing unnecessary re-renders, optimizing load times, and structuring codebases that are easy to scale and maintain. I enjoy collaborating with designers and engineers to turn ideas into well-crafted mobile experiences, and I’m always exploring better ways to build, structure, and ship high-quality apps.",
+    "I've built mobile applications involving real-time communication, service booking, authentication, push notifications, maps, payments, and secure local storage. I'm also deepening my native Android expertise with Kotlin and Jetpack Compose while exploring React Native's New Architecture, including Fabric, Turbo Modules, JSI, and native bridging.",
+
   avatarUrl: "./me.png",
+
   skills: [
     {
       label: "Languages",
-      stack: ["Javascript", "Typescript", "Kotlin", "C/C++"],
+      stack: [
+        "JavaScript",
+        "TypeScript",
+        "Kotlin",
+      ],
     },
+
     {
-      label: "Technologies/Frameworks",
+      label: "Mobile",
       stack: [
         "React Native",
         "Expo",
-        "React.js",
-        "Android"
+        "Expo Router",
+        "Android",
+        "iOS",
+        "Jetpack Compose",
+        "XML",
       ],
     },
+
     {
-      label: "Libraries",
+      label: "React Native",
       stack: [
+        "Redux Toolkit",
+        "React Query",
         "Zustand",
-        "Redux-Toolkit",
-        "React-Query",
-        "Core Redux",
-        "Tailwind",
-        "Jest",
-        "Reanimated",
-        "RN-Skia",
         "React Navigation",
-        "MMKV",
+        "Reanimated",
+        "New Architecture",
+        "Fabric",
+        "Turbo Modules",
+        "JSI",
+        "Native Bridging",
       ],
     },
+
     {
-      label: "Database",
-      stack: ["Firebase", "Appwrite", "SQLite"],
-    },
-    {
-      label: "Dev Tools",
+      label: "Backend & Storage",
       stack: [
-        "Antigravity",
+        "REST APIs",
+        "Firebase",
+        "Appwrite",
+        "SQLite",
+        "MMKV",
+        "AsyncStorage",
+      ],
+    },
+
+    {
+      label: "SDKs & Integrations",
+      stack: [
+        "Firebase Auth",
+        "Firebase Firestore",
+        "FCM",
+        "Google Maps",
+        "ZegoCloud",
+        "Stripe",
+      ],
+    },
+
+    {
+      label: "Testing & Delivery",
+      stack: [
+        "Jest",
+        "Testing Library",
+        "Git",
+        "GitHub",
+        "GitLab",
+        "Fastlane",
+        "CI/CD",
+        "Google Play",
+        "App Store",
+      ],
+    },
+
+    {
+      label: "Development Tools",
+      stack: [
         "Android Studio",
         "Xcode",
         "VS Code",
         "Cursor",
-        "Git",
-        "GitHub",
         "Postman",
         "Vysor",
       ],
     },
-    {
-      label: "Others",
-      stack: [
-        "Tailwind CSS",
-        "JSON",
-        "SQL"
-      ],
-    },
-    {
-      label: "Operaing Systems",
-      stack: ["MacOS", "Windows"],
-    },
   ],
-  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
-  contact: {
-    email: "npwadekar7@gmail.com",
-    tel: "",
-    social: {
-      GitHub: {
-        name: "GitHub",
-        url: "https://github.com/wadekar9",
-        icon: Icons.github,
-        navbar: true,
-      },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/nayan-wadekar-855253197/",
-        icon: Icons.linkedin,
-        navbar: true,
-      },
-      X: {
-        name: "X",
-        url: "https://x.com/nayan_wadekar?t=g_qw7RFAMYakXP0oiGhWdw&s=09",
-        icon: Icons.x,
-        navbar: true,
-      },
-      Email: {
-        name: "Send Email",
-        url: "mailto:npwadekar7@gmail.com",
-        icon: Icons.email,
-        navbar: true,
-      },
-      Resume: {
-        name: "Download Resume",
-        url: "https://drive.google.com/file/d/1uT25FFNlG5tFPKQO-CZMF0wptfLhzOI6/view?usp=sharing",
-        icon: Icons.resumecv,
-        navbar: true,
-      },
-    },
-  },
+
   work: [
     {
       company: "Tecocraft Infusion Pvt Ltd",
-      href: "https://www.tecocraft.com/",
+      href: "",
       badges: [],
-      location: "Surat, Gujarat, India",
+      location: "India",
       title: "React Native Developer",
-      logoUrl: "./tecocraft.png",
-      start: "January 2024",
-      end: "June 2026",
-      description: "",
+      logoUrl: "",
+      start: "Jan 2024",
+      end: "Jun 2026",
+
+      description: [
+        "Built and maintained 5+ production cross-platform mobile applications using React Native, Expo, TypeScript, and JavaScript across UI development, API integration, testing, and releases.",
+
+        "Designed reusable authentication, networking, and state-management solutions using Firebase Auth, Google/Apple Sign-In, Redux Toolkit, React Query, Axios, and Zod.",
+
+        "Improved application performance by addressing startup and rendering delays, unnecessary re-renders, memory issues, large-list performance, and API/network bottlenecks using profiling and logging.",
+
+        "Investigated and resolved production crashes, defects, build issues, and release problems while supporting iOS and Android deployments through the Apple App Store and Google Play Store.",
+
+        "Reviewed pull requests and mentored 5-7 junior developers and peers on project architecture, folder structure, state management, coding practices, performance optimization, and problem-solving.",
+      ],
     },
+
     {
       company: "Sridix Technology",
-      href: "https://www.sridix.com",
+      href: "",
       badges: [],
-      location: "Surat, Gujarat, India",
+      location: "India",
       title: "Mobile App Developer",
-      logoUrl: "./sridix.png",
-      start: "October 2022",
-      end: "January 2024",
-      description: "",
+      logoUrl: "",
+      start: "Oct 2022",
+      end: "Jan 2024",
+
+      description: [
+        "Delivered 8 production React Native applications across e-commerce, social, and messaging use cases, contributing across requirements, development, testing, and App Store/Google Play releases.",
+
+        "Built applications from scratch using React Native, Expo, Expo Router, TypeScript, JavaScript, SQLite, MMKV, and AsyncStorage with reusable UI components and scalable project structures.",
+
+        "Integrated REST APIs, Firebase, and ZegoCloud for authentication, real-time communication, chat, push notifications, and data synchronization.",
+
+        "Diagnosed and optimized rendering performance, large-list handling, API/network performance, memory usage, and production issues through debugging, profiling, and logging.",
+      ],
     },
+
     {
       company: "Sridix Technology",
-      href: "https://www.sridix.com",
+      href: "",
       badges: [],
-      location: "Surat, Gujarat, India",
+      location: "India",
       title: "Developer Intern",
-      logoUrl: "./sridix.png",
-      start: "July 2022",
-      end: "September 2022",
-      description: "",
+      logoUrl: "",
+      start: "Jul 2022",
+      end: "Sep 2022",
+
+      description: [
+        "Contributed to React Native mobile application development while gaining hands-on experience with cross-platform UI development, API integration, debugging, and project workflows.",
+      ],
     },
   ],
+
   education: [
     {
-      school: "Dr. Babasaheb Ambedkar Open University",
-      href: "https://baou.edu.in/",
-      degree: "Bachelor's Degree of Science (BSCIT)",
-      logoUrl: "./baou.png",
+      school: "Dr. B. R. Ambedkar Open University",
+      href: "",
+      degree: "B.Sc. Information Technology",
+      logoUrl: "",
       start: "2024",
       end: "Present",
     },
-    {
-      school: "Gujarat Technological University",
-      href: "https://www.gtu.ac.in",
-      degree: "Bachelor's Degree of Engineering (BE)",
-      logoUrl: "./gtu.png",
-      start: "2018",
-      end: "2020",
-    },
   ],
+
   projects: [
     {
-      title: "SilentSafe - Offline Password Manager",
-      href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
+      title: "Quickfix - Home & Office Service Platform",
+      href: "",
       active: true,
+
+      description:
+        "Built both Customer and Service Provider apps from scratch, implementing end-to-end service booking workflows, nearby provider discovery with Google Maps, real-time chat and quotations using Firebase Firestore, FCM notifications, REST API integration, state management, business logic, and performance optimization.",
+
       technologies: [
-        "Biometric Authentication",
-        "AES-256 Encryption",
-        "Material Design 3",
-        "SecureStorage",
-        "Secure SQLite",
-        "Tailwind CSS",
-        "i18n"
+        "React Native",
+        "Firebase Firestore",
+        "FCM",
+        "Google Maps",
+        "REST APIs",
+        "Real-time Chat",
+        "State Management",
       ],
-      links: [
-        {
-          type: "Play Store",
-          href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
-          icon: <Icons.smartphone className="size-3" />,
-        }
-      ],
-      image: "./silent-safe.png",
+
+      links: [],
+
+      image: "./quickfix.png",
       video: "",
     },
+
     {
-      title: "ConvertioX - File Converter",
+      title: "HiBro - English Speaking App",
+      href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
+      active: true,
+
+      description:
+        "Built a real-time English learning platform enabling users to connect through live audio calls, integrating ZegoCloud and Firebase for communication, authentication, and data synchronization. Reached 10K+ Google Play downloads.",
+
+      technologies: [
+        "React Native",
+        "TypeScript",
+        "ZegoCloud",
+        "Firebase Firestore",
+        "FCM",
+        "Real-time Communication",
+        "Redux",
+      ],
+
+      links: [
+        {
+          type: "Google Play",
+          href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
+        },
+      ],
+
+      image: "./hibro.png",
+      video: "",
+    },
+
+    {
+      title: "SilentSafe - Password Manager",
+      href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
+      active: true,
+
+      description:
+        "Built a privacy-focused offline password manager with an encrypted local vault, AES-256 protection, biometric authentication, secure backup/export, auto-lock, clipboard clearing, and screenshot protection.",
+
+      technologies: [
+        "React Native",
+        "SQLite",
+        "AES-256",
+        "Biometric Authentication",
+        "Secure Storage",
+      ],
+
+      links: [
+        {
+          type: "Google Play",
+          href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
+        },
+      ],
+
+      image: "./silentsafe.png",
+      video: "",
+    },
+
+    {
+      title: "Beedee - Dating & Messaging App",
+      href: "https://beedee.com/",
+      active: true,
+
+      description:
+        "Built mobile features for a dating platform with real-time messaging, push notifications, state management, and Firebase integration across iOS and Android.",
+
+      technologies: [
+        "React Native",
+        "TypeScript",
+        "Redux Toolkit",
+        "Firebase",
+        "FCM",
+        "APNs",
+        "Real-time Messaging",
+      ],
+
+      links: [
+        {
+          type: "Website",
+          href: "https://beedee.com/",
+        },
+        {
+          type: "Google Play",
+          href: "https://play.google.com/store/apps/details?id=com.beedee.app",
+        },
+        {
+          type: "App Store",
+          href: "https://apps.apple.com/us/app/beedee/id1614103533",
+        },
+      ],
+
+      image: "./beedee.png",
+      video: "",
+    },
+
+    {
+      title: "ConvertioX - File & Document Utility",
       href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.convertiox.compressfile.file_converter.tools.imagetopdf.document.ocrtext.pdftools",
       active: true,
+
+      description:
+        "Built a mobile utility application for file management and document processing, including PDF and image tools, OCR, QR scanning, and Firebase integration.",
+
       technologies: [
+        "React Native",
+        "TypeScript",
         "File Management",
         "PDF/Image Tools",
         "OCR",
         "QR Scanner",
         "Firebase",
-        "Typescript"
       ],
+
       links: [
         {
-          type: "Play Store",
+          type: "Google Play",
           href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.convertiox.compressfile.file_converter.tools.imagetopdf.document.ocrtext.pdftools",
-          icon: <Icons.smartphone className="size-3" />,
-        }
-      ],
-      image: "./converter-app.png",
-      video: "",
-    },
-    {
-      title: "Beedee - Dating App",
-      href: "https://beedee.com/",
-      active: true,
-      technologies: [
-        "Real-time Messaging",
-        "FCM/APNs",
-        "Redux-Toolkit",
-        "Firebase",
-        "Typescript"
-      ],
-      links: [
-        {
-          type: "Play Store",
-          href: "https://play.google.com/store/apps/details?id=com.beedee.app",
-          icon: <Icons.smartphone className="size-3" />,
-        },
-        {
-          type: "App Store",
-          href: "https://apps.apple.com/us/app/beedee/id1614103533",
-          icon: <Icons.smartphone className="size-3" />,
         },
       ],
-      image: "./beedee.png",
+
+      image: "./convertiox.png",
       video: "",
     },
+
     {
-      title: "HiBro App",
-      href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
-      active: true,
-      technologies: [
-        "Real-time Messaging(Firestore)",
-        "ZegoCloud",
-        "FCM/APNs",
-        "Core Redux",
-        "Firebase",
-        "Typescript/JavaScript"
-      ],
-      links: [
-        {
-          type: "Play Store",
-          href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
-          icon: <Icons.smartphone className="size-3" />,
-        },
-      ],
-      image: "./hibro.png",
-      video: "",
-    },
-    {
-      title: "AI Wealth Calculator : 401k",
+      title: "AI Wealth Calculator",
       href: "https://growlifefund.com/",
       active: true,
+
+      description:
+        "Built a React Native financial calculator experience with interactive charts, localization, analytics, and mobile monetization integrations.",
+
       technologies: [
-        "i18n",
-        "Google-AdMob",
-        "Firebase Analytics",
-        "Victory Native Charts",
         "React Native",
-        "Typescript",
-        "Zustand"
+        "TypeScript",
+        "Zustand",
+        "Victory Native Charts",
+        "Firebase Analytics",
+        "Google AdMob",
+        "i18n",
       ],
+
       links: [
         {
-          type: "Play Store",
+          type: "Website",
+          href: "https://growlifefund.com/",
+        },
+        {
+          type: "Google Play",
           href: "https://play.google.com/store/apps/details?id=com.growlifefund",
-          icon: <Icons.smartphone className="size-3" />,
         },
       ],
-      image: "./growlifefund.png",
+
+      image: "./ai-wealth-calculator.png",
       video: "",
     },
+
     {
-      title: "React Native Template",
+      title: "React Native Awesome Boilerplate",
       href: "https://github.com/wadekar9/rn-awesome-boilerplate",
       active: true,
+
+      description:
+        "Created a reusable React Native project foundation with TypeScript, Expo, Redux Toolkit, React Navigation, Firebase, MMKV, internationalization, SVG support, and reusable project structure.",
+
       technologies: [
         "React Native",
-        "Typescript",
-        "Firebase",
+        "TypeScript",
         "Expo",
         "Redux Toolkit",
         "React Navigation",
+        "Firebase",
         "MMKV",
         "i18n",
-        "SVG",
       ],
+
       links: [
         {
           type: "GitHub",
           href: "https://github.com/wadekar9/rn-awesome-boilerplate",
-          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "./react-native.png",
+
+      image: "./rn-template.png",
       video: "",
     },
   ],
-  hackathons: [],
-} as const;
+
+  social: {
+    GitHub: {
+      name: "GitHub",
+      url: "https://github.com/wadekar9",
+    },
+
+    LinkedIn: {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/nayan-wadekar-855253197/",
+    },
+
+    X: {
+      name: "X",
+      url: "",
+    },
+
+    Email: {
+      name: "Email",
+      url: "mailto:npwadekar7@gmail.com",
+    },
+  },
+
+  contact: {
+    email: "npwadekar7@gmail.com",
+  },
+};
