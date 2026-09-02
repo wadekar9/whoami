@@ -187,12 +187,8 @@ export const DATA = {
     {
       title: "Quickfix - Home & Office Service Platform",
       href: "",
-      active: true,
-
-      description:
-        "Built both Customer and Service Provider apps from scratch, implementing end-to-end service booking workflows, nearby provider discovery with Google Maps, real-time chat and quotations using Firebase Firestore, FCM notifications, REST API integration, state management, business logic, and performance optimization.",
-
-      technologies: [
+      dates: "In Development",
+      tags: [
         "React Native",
         "Firebase Firestore",
         "FCM",
@@ -201,78 +197,53 @@ export const DATA = {
         "Real-time Chat",
         "State Management",
       ],
-
-      links: [],
-
+      link: "",
       image: "./quickfix.png",
       video: "",
+      links: [],
     },
 
     {
       title: "HiBro - English Speaking App",
       href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
-      active: true,
-
-      description:
-        "Built a real-time English learning platform enabling users to connect through live audio calls, integrating ZegoCloud and Firebase for communication, authentication, and data synchronization. Reached 10K+ Google Play downloads.",
-
-      technologies: [
+      dates: "",
+      tags: [
         "React Native",
         "TypeScript",
         "ZegoCloud",
         "Firebase Firestore",
         "FCM",
-        "Real-time Communication",
         "Redux",
+        "Real-time Communication",
       ],
-
-      links: [
-        {
-          type: "Google Play",
-          href: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
-        },
-      ],
-
+      link: "https://play.google.com/store/apps/details?id=com.arifauto.hibro",
       image: "./hibro.png",
       video: "",
+      links: [],
     },
 
     {
       title: "SilentSafe - Password Manager",
       href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
-      active: true,
-
-      description:
-        "Built a privacy-focused offline password manager with an encrypted local vault, AES-256 protection, biometric authentication, secure backup/export, auto-lock, clipboard clearing, and screenshot protection.",
-
-      technologies: [
+      dates: "",
+      tags: [
         "React Native",
         "SQLite",
         "AES-256",
         "Biometric Authentication",
         "Secure Storage",
       ],
-
-      links: [
-        {
-          type: "Google Play",
-          href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
-        },
-      ],
-
+      link: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.passwordmanager.credentialsmanager.vault.silentsafe",
       image: "./silentsafe.png",
       video: "",
+      links: [],
     },
 
     {
       title: "Beedee - Dating & Messaging App",
       href: "https://beedee.com/",
-      active: true,
-
-      description:
-        "Built mobile features for a dating platform with real-time messaging, push notifications, state management, and Firebase integration across iOS and Android.",
-
-      technologies: [
+      dates: "",
+      tags: [
         "React Native",
         "TypeScript",
         "Redux Toolkit",
@@ -281,64 +252,35 @@ export const DATA = {
         "APNs",
         "Real-time Messaging",
       ],
-
-      links: [
-        {
-          type: "Website",
-          href: "https://beedee.com/",
-        },
-        {
-          type: "Google Play",
-          href: "https://play.google.com/store/apps/details?id=com.beedee.app",
-        },
-        {
-          type: "App Store",
-          href: "https://apps.apple.com/us/app/beedee/id1614103533",
-        },
-      ],
-
+      link: "https://beedee.com/",
       image: "./beedee.png",
       video: "",
+      links: [],
     },
 
     {
       title: "ConvertioX - File & Document Utility",
       href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.convertiox.compressfile.file_converter.tools.imagetopdf.document.ocrtext.pdftools",
-      active: true,
-
-      description:
-        "Built a mobile utility application for file management and document processing, including PDF and image tools, OCR, QR scanning, and Firebase integration.",
-
-      technologies: [
+      dates: "",
+      tags: [
         "React Native",
         "TypeScript",
-        "File Management",
-        "PDF/Image Tools",
+        "PDF & Image Tools",
         "OCR",
         "QR Scanner",
         "Firebase",
       ],
-
-      links: [
-        {
-          type: "Google Play",
-          href: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.convertiox.compressfile.file_converter.tools.imagetopdf.document.ocrtext.pdftools",
-        },
-      ],
-
+      link: "https://play.google.com/store/apps/details?id=com.thinkheadlabs.convertiox.compressfile.file_converter.tools.imagetopdf.document.ocrtext.pdftools",
       image: "./convertiox.png",
       video: "",
+      links: [],
     },
 
     {
       title: "AI Wealth Calculator",
       href: "https://growlifefund.com/",
-      active: true,
-
-      description:
-        "Built a React Native financial calculator experience with interactive charts, localization, analytics, and mobile monetization integrations.",
-
-      technologies: [
+      dates: "",
+      tags: [
         "React Native",
         "TypeScript",
         "Zustand",
@@ -347,31 +289,17 @@ export const DATA = {
         "Google AdMob",
         "i18n",
       ],
-
-      links: [
-        {
-          type: "Website",
-          href: "https://growlifefund.com/",
-        },
-        {
-          type: "Google Play",
-          href: "https://play.google.com/store/apps/details?id=com.growlifefund",
-        },
-      ],
-
+      link: "https://growlifefund.com/",
       image: "./ai-wealth-calculator.png",
       video: "",
+      links: [],
     },
 
     {
       title: "React Native Awesome Boilerplate",
       href: "https://github.com/wadekar9/rn-awesome-boilerplate",
-      active: true,
-
-      description:
-        "Created a reusable React Native project foundation with TypeScript, Expo, Redux Toolkit, React Navigation, Firebase, MMKV, internationalization, SVG support, and reusable project structure.",
-
-      technologies: [
+      dates: "",
+      tags: [
         "React Native",
         "TypeScript",
         "Expo",
@@ -381,16 +309,10 @@ export const DATA = {
         "MMKV",
         "i18n",
       ],
-
-      links: [
-        {
-          type: "GitHub",
-          href: "https://github.com/wadekar9/rn-awesome-boilerplate",
-        },
-      ],
-
+      link: "https://github.com/wadekar9/rn-awesome-boilerplate",
       image: "./rn-template.png",
       video: "",
+      links: [],
     },
   ],
 
